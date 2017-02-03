@@ -25,8 +25,11 @@
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_seb</object>
-    <object>objects\obj_soundControl</object>
     <object>objects\obj_text</object>
+    <objects name="Seb's Room">
+      <object>objects\obj_soundControlSebRoom</object>
+      <object>objects\obj_bedTrigger</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_sebHome</room>
