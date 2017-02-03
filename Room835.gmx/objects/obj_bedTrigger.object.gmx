@@ -37,6 +37,7 @@ if (collision == 0) {
             with(obj_text) {
                 instance_destroy();
             }
+            room_goto(rm_room835);
         }
     } else {
         with(obj_text) {
