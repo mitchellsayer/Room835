@@ -29,6 +29,7 @@
     <objects name="Seb's Room">
       <object>objects\obj_soundControlSebRoom</object>
       <object>objects\obj_bedTrigger</object>
+      <object>objects\obj_sebRoomDoorTrigger</object>
     </objects>
   </objects>
   <rooms name="rooms">
