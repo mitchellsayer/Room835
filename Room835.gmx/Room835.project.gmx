@@ -14,6 +14,10 @@
   <backgrounds name="background">
     <background>background\bg_sebHome</background>
     <background>background\bg_room835</background>
+    <background>background\bg_houseEntrance</background>
+    <background>background\bg_lonelyRoad</background>
+    <background>background\bg_baxtonEntrance</background>
+    <background>background\bg_baxtonLobby</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -35,6 +39,10 @@
   <rooms name="rooms">
     <room>rooms\rm_sebHome</room>
     <room>rooms\rm_room835</room>
+    <room>rooms\rm_houseEntrance</room>
+    <room>rooms\rm_lonelyRoad</room>
+    <room>rooms\rm_baxtonEntrance</room>
+    <room>rooms\rom_baxtonLobby</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
