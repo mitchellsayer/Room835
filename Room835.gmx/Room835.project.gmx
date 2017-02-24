@@ -46,9 +46,11 @@
     </objects>
     <objects name="Baxton Entrance">
       <object>objects\obj_lobbby_transition</object>
+      <object>objects\obj_lonelyroad_transition</object>
     </objects>
     <objects name="Baxton Lobby">
       <object>objects\obj_room835_transition</object>
+      <object>objects\obj_baxtonEntrance_transition</object>
     </objects>
   </objects>
   <rooms name="rooms">
