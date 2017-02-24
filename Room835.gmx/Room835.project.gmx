@@ -10,6 +10,8 @@
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_sebTest</sprite>
+    <sprite>sprites\spr_seb_left</sprite>
+    <sprite>sprites\spr_seb_idle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_sebHome</background>
@@ -32,8 +34,21 @@
     <object>objects\obj_text</object>
     <objects name="Seb's Room">
       <object>objects\obj_soundControlSebRoom</object>
-      <object>objects\obj_bedTrigger</object>
       <object>objects\obj_sebRoomDoorTrigger</object>
+    </objects>
+    <objects name="House Entrance">
+      <object>objects\obj_houseTransition</object>
+      <object>objects\obj_lonelyRoadTransition</object>
+    </objects>
+    <objects name="Lonely Road">
+      <object>objects\obj_baxton_transition</object>
+      <object>objects\obj_house_entrance_transition</object>
+    </objects>
+    <objects name="Baxton Entrance">
+      <object>objects\obj_lobbby_transition</object>
+    </objects>
+    <objects name="Baxton Lobby">
+      <object>objects\obj_room835_transition</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -42,7 +57,7 @@
     <room>rooms\rm_houseEntrance</room>
     <room>rooms\rm_lonelyRoad</room>
     <room>rooms\rm_baxtonEntrance</room>
-    <room>rooms\rom_baxtonLobby</room>
+    <room>rooms\rm_baxtonLobby</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

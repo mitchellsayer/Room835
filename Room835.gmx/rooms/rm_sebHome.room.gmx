@@ -55,7 +55,8 @@
     <instance objName="obj_wall" x="1296" y="800" name="inst_A1C1AEBE" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="630" y="800" name="inst_3A376F6A" locked="0" code="" scaleX="1" scaleY="16" colour="4294967295" rotation="0"/>
     <instance objName="obj_soundControlSebRoom" x="64" y="32" name="inst_D1324C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bedTrigger" x="768" y="992" name="inst_10A949A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seb" x="992" y="928" name="inst_5221C30D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sebRoomDoorTrigger" x="1152" y="960" name="inst_95BA9B23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

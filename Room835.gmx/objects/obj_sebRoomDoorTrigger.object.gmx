@@ -8,28 +8,6 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -47,26 +25,28 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>coll = 0;
+            <string>collision = 0;
 
-if (coll == 0) {
+if (collision == 0) {
     if(place_meeting(x,y,obj_seb)) {
         if (instance_number(obj_text)&lt;1) {
-            scr_text("Go Outside", 1.5, 500, 450);
+            scr_text("Press 'e' to leave your house", 2, 650, 600);
         }
-        coll = 1;
+        collision = 1;
         if (keyboard_check_pressed(ord("E"))) {
             with(obj_text) {
                 instance_destroy();
             }
+            room_goto(rm_houseEntrance);
         }
     } else {
         with(obj_text) {
             instance_destroy();
         }
-        coll = 0;
+        collision = 0;
     }
 }
+
 </string>
           </argument>
         </arguments>
