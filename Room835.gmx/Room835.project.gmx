@@ -9,9 +9,10 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_sebTest</sprite>
     <sprite>sprites\spr_seb_left</sprite>
+    <sprite>sprites\spr_seb_dream</sprite>
     <sprite>sprites\spr_seb_idle</sprite>
+    <sprite>sprites\spr_seb_idle_dream</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_sebHome</background>
@@ -20,17 +21,25 @@
     <background>background\bg_lonelyRoad</background>
     <background>background\bg_baxtonEntrance</background>
     <background>background\bg_baxtonLobby</background>
+    <background>background\bg_dream1vert</background>
+    <background>background\bg_dream1left</background>
+    <background>background\bg_dream1right</background>
+    <background>background\bg_dream1upsidedown</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_text.gml</script>
   </scripts>
+  <shaders name="shaders">
+    <shader type="GLSLES">shaders\shader0.shader</shader>
+  </shaders>
   <fonts name="fonts">
     <font>fonts\fnt</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_wall</object>
     <object>objects\obj_seb</object>
+    <object>objects\obj_seb_dream</object>
     <object>objects\obj_text</object>
     <objects name="Seb's Room">
       <object>objects\obj_soundControlSebRoom</object>
@@ -54,12 +63,17 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_init</room>
     <room>rooms\rm_sebHome</room>
     <room>rooms\rm_room835</room>
     <room>rooms\rm_houseEntrance</room>
     <room>rooms\rm_lonelyRoad</room>
     <room>rooms\rm_baxtonEntrance</room>
     <room>rooms\rm_baxtonLobby</room>
+    <room>rooms\rm_dream1vert</room>
+    <room>rooms\rm_dream1right</room>
+    <room>rooms\rm_dream1left</room>
+    <room>rooms\rm_dream1upsidedown</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

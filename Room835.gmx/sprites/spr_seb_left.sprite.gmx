@@ -30,5 +30,8 @@
     <frame index="7">images\spr_seb_left_7.png</frame>
     <frame index="8">images\spr_seb_left_8.png</frame>
     <frame index="9">images\spr_seb_left_9.png</frame>
+    <frame index="10">images\spr_seb_left_10.png</frame>
+    <frame index="11">images\spr_seb_left_11.png</frame>
+    <frame index="12">images\spr_seb_left_12.png</frame>
   </frames>
 </sprite>

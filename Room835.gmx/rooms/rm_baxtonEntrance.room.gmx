@@ -53,9 +53,9 @@
   <instances>
     <instance objName="obj_wall" x="960" y="1056" name="inst_FFE559BB" locked="0" code="" scaleX="61" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1935" y="544" name="inst_E3589D68" locked="0" code="" scaleX="1" scaleY="40" colour="4294967295" rotation="0"/>
-    <instance objName="obj_seb" x="96" y="945" name="inst_C59E9CFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lobbby_transition" x="1440" y="960" name="inst_65D38524" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lonelyroad_transition" x="32" y="992" name="inst_A76E4913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_seb" x="82" y="945" name="inst_6A8DDE69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

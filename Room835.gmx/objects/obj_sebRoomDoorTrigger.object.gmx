@@ -37,7 +37,7 @@ if (collision == 0) {
             with(obj_text) {
                 instance_destroy();
             }
-            room_goto(rm_baxtonLobby);
+            room_goto(rm_houseEntrance);
         }
     } else {
         with(obj_text) {
